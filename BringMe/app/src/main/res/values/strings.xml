@@ -1,0 +1,45 @@
+<resources>
+    //String for app Name
+    <string name="app_name">BringMe</string>
+
+    //Strings for main_view.xml
+    <string name="scan_product">Add Product</string>
+    <string name="search_product">Search Product</string>
+
+    //Strings for activity_scan_barcode.xml
+    <string name="skip_scan">Skip Scan</string>
+
+    //Strings for product_detail.xml
+    <string name="title">Add Title</string>
+    <string name="quantity">Available Quantity(Approx.)</string>
+    <string name="sale">On Sale</string>
+    <string name="on">Yes</string>
+    <string name="off">No</string>
+    <string name="address">Select the location from where you bought this product.</string>
+    <string name="search_location">Search Location</string>
+    <string name="submit">Submit</string>
+    <string name="barcode_result">No Barcode Found</string>
+
+
+    //Strings for confirmation.xml
+    <string name="main_menu">Main Menu</string>
+    <string name="scan_another_barcode">Add more Products</string>
+
+    //Strings for search_product.xml
+    <string name="product_title">Title of Product</string>
+    <string name="location">Location</string>
+    <string name="distance">2 Km</string>
+    <string name="rating">Authenticity :3/5</string>
+
+    //Strings for product_description.xml
+    <string name="approx_quantity">Quantity : 30</string>
+    <string name="onsale">On Sale : Yes</string>
+    <string name="map">View in Map</string>
+    <string name="ratingtext">Rate the accuracy of location</string>
+
+    //Strings for help_menu.xml
+    <string name="help">Help</string>
+
+    //Strings for help.xml
+    <string name="help_text">ckck</string>
+</resources>

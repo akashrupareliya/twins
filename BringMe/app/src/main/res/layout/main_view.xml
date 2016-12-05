@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layout_marginTop="80dp"
+    android:id="@+id/snackbar">
+
+    <Button
+        android:id="@+id/scan_barcode"
+        android:text="@string/scan_product"
+        android:onClick="scanBarcode"
+        android:layout_gravity="center_vertical|center_horizontal"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:layout_marginTop="90dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/search_barcode"
+        android:text="@string/search_product"
+        android:onClick="searchproduct"
+        android:layout_gravity="center_vertical|center_horizontal"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp" />
+ </LinearLayout>

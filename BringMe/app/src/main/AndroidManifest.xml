@@ -1,0 +1,66 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.twins.bringme">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--Add mobile vision dependencies and version to metadata  -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBXDFkpr-_NWr9THm3Gt7SiU7rl2VzxyFw" />
+
+        <activity android:name=".MainActivity"
+            android:label="BringMe">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ScanBarcodeActivity"
+            android:label="Scan">
+
+        </activity>
+
+        <activity android:name=".ProductDetails"
+            android:label="Product Details">
+
+        </activity>
+
+        <activity android:name=".Confirmation"
+            android:label="Confirmation">
+
+        </activity>
+
+        <activity android:name=".Search"
+            android:label="Search Product">
+
+        </activity>
+
+        <activity android:name=".Description"
+            android:label="Product Description">
+
+        </activity>
+
+        <activity android:name=".help"
+            android:label="Help">
+
+        </activity>
+    </application>
+
+</manifest>
